@@ -2,15 +2,14 @@ import ReleaseTransformations._
 
 val SlickVersion = "3.3.2"
 
-val AkkaVersion = "2.5.22"
+val AkkaVersion = "2.6.1"
 
-val AkkaHttpVersion = "10.1.8"
+val AkkaHttpVersion = "10.1.11"
 
 lazy val scala212 = "2.12.10"
-lazy val scala211 = "2.11.12"
-lazy val supportedScalaVersions = List(scala212, scala211)
+lazy val supportedScalaVersions = List(scala212)
 
-scalaVersion := scala211
+scalaVersion := scala212
 
 organization := "com.trueaccord.repos"
 
@@ -43,7 +42,7 @@ libraryDependencies ++= Seq(
     "org.scala-lang.modules" %% "scala-async" % "0.9.7",
     "org.xerial.snappy" % "snappy-java" % "1.1.1.6",
     "com.github.shyiko" % "mysql-binlog-connector-java" % "0.4.1",
-    "org.slf4j" % "slf4j-api" % "1.7.5",
+    "org.slf4j" % "slf4j-api" % "1.7.29",
 
     "com.typesafe.akka" %% "akka-testkit" % AkkaVersion % "test",
     "com.h2database" % "h2" % "1.4.189" % "test",
