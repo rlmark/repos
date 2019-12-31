@@ -1,6 +1,6 @@
 import ReleaseTransformations._
 
-val SlickVersion = "3.2.3"
+val SlickVersion = "3.3.2"
 
 val AkkaVersion = "2.5.22"
 
@@ -34,7 +34,7 @@ releaseProcess := Seq[ReleaseStep](
 )
 
 libraryDependencies ++= Seq(
-    "commons-codec" % "commons-codec" % "1.8",
+    "commons-codec" % "commons-codec" % "1.9",
     "com.typesafe.akka" %% "akka-actor" % AkkaVersion,
     "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
     "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
