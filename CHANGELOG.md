@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] 2020-01-11
+### Changed 
+- Upgrades akka to 2.6.1
+- Upgrades akka-http to 10.1.11
+- Upgrades slf4j-api to 1.7.29 
+- Upgrades sbt-twirl to 1.5.0
+
+### Removed
+- Removes Scala 2.11 language support 
+
 ## [0.2.1] 2020-01-10
 ### Changed 
 - Upgrades common-codec to 1.8
